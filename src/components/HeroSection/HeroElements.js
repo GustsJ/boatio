@@ -35,7 +35,7 @@ export const HeroBg = styled.div`
   overflow: hidden;
 `;
 
-export const VideoBg = styled.video`
+export const HeroBgImg = styled.img`
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -51,6 +51,17 @@ export const HeroContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 12rem;
+
+  @media screen and (max-width: 480px) {
+    gap: 3rem;
+  }
+`;
+
+export const HeroTopBlock = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 `;
 
 export const HeroH1 = styled.h1`

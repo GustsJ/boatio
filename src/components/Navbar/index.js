@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {FaBars} from 'react-icons/fa';
 import {IconContext} from "react-icons/lib";
 import {animateScroll as scroll} from 'react-scroll';
+import Logo from '../../images/boatio-logo.svg'
 import {
     Nav,
     NavbarContainer,
@@ -9,6 +10,7 @@ import {
     MobileIcon,
     NavMenu,
     NavItem,
+    NavLinkContainer,
     NavLinks,
     NavBtn,
     NavBtnLink
@@ -38,30 +40,35 @@ const Navbar = ({toggle}) => {
             <IconContext.Provider value={{color: '#fff'}}>
                 <Nav scrollNav={scrollNav}>
                     <NavbarContainer>
-                        <NavLogo to='/' onClick={toggleHome}>dolla</NavLogo>
+                        <NavLogo to='/' onClick={toggleHome}><img src={Logo} alt="The Boatio logo"/></NavLogo>
                         <MobileIcon onClick={toggle}>
                             <FaBars/>
                         </MobileIcon>
                         <NavMenu>
                             <NavItem>
-                                <NavLinks to='about' smooth={true} duration={500} spy={true} exact='true'
-                                          offset={-80}>About</NavLinks>
+                                <NavLinkContainer>
+                                    <NavLinks to='about' smooth={true} duration={500} spy={true} exact='true'
+                                          offset={-80}>PAR MUMS</NavLinks>
+                                </NavLinkContainer>
                             </NavItem>
                             <NavItem>
+                                <NavLinkContainer>
                                 <NavLinks to='discover' smooth={true} duration={500} spy={true} exact='true'
-                                          offset={-80}>Discover</NavLinks>
+                                          offset={-80}>REZERVĀCIJAS</NavLinks>
+                                </NavLinkContainer>
                             </NavItem>
                             <NavItem>
+                                <NavLinkContainer>
                                 <NavLinks to='services' smooth={true} duration={500} spy={true} exact='true'
-                                          offset={-80}>Services</NavLinks>
+                                          offset={-80}>SASNIEGUMI</NavLinks>
+                                </NavLinkContainer>
                             </NavItem>
                             <NavItem>
+                                <NavLinkContainer>
                                 <NavLinks to='signup' smooth={true} duration={500} spy={true} exact='true'
-                                          offset={-80}>Sign up</NavLinks>
+                                          offset={-80}>GALERIJA</NavLinks>
+                                </NavLinkContainer>
                             </NavItem>
-                            <NavBtn>
-                                <NavBtnLink to='/signin'>Sign In</NavBtnLink>
-                            </NavBtn>
                         </NavMenu>
                     </NavbarContainer>
                 </Nav>

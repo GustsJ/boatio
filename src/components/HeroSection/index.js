@@ -1,10 +1,11 @@
 import React, {useState} from 'react'
-import Video from '../../videos/video.mp4'
+import Background from '../../images/boatio-background.png'
 import {
     HeroContainer,
     HeroBg,
-    VideoBg,
+    HeroBgImg,
     HeroContent,
+    HeroTopBlock,
     HeroH1,
     HeroP,
     HeroBtnWrapper,
@@ -23,18 +24,20 @@ const HeroSection = () => {
     return (
         <HeroContainer>
             <HeroBg>
-                <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
+                <HeroBgImg autoPlay loop muted src={Background} type='image'/>
             </HeroBg>
             <HeroContent>
-                <HeroH1>Virtual Banking Made Easy</HeroH1>
+                <HeroTopBlock>
+                <HeroH1>Ahoi!</HeroH1>
                 <HeroP>
-                    Sign up for new account today and recieve 250$ in credit towards your next payment.
+                    Laipni lūgti naktsmītnē virs ūdens, kurā sajutīsiet īsto vasaras burvību
                 </HeroP>
+                </HeroTopBlock>
                 <HeroBtnWrapper>
-                    <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'
+                    <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='false'
                             smooth={true} duration={500} spy={true} exact='true'
                             offset={-80}>
-                        Get Started {hover ? <ArrowForward/> : <ArrowRight/>}
+                        Rezervēt {hover}
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>
