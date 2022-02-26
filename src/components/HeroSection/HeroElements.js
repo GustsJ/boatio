@@ -64,7 +64,7 @@ export const HeroTopBlock = styled.div`
   gap: 3rem;
 `;
 
-export const HeroH1 = styled.h1`
+export const HeroH = styled.h2`
   color: #fff;
   font-size: 48px;
   text-align: center;

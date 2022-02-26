@@ -12,8 +12,6 @@ import {
     NavItem,
     NavLinkContainer,
     NavLinks,
-    NavBtn,
-    NavBtnLink
 } from "./NavbarElements";
 
 const Navbar = ({toggle}) => {
@@ -53,19 +51,19 @@ const Navbar = ({toggle}) => {
                             </NavItem>
                             <NavItem>
                                 <NavLinkContainer>
-                                <NavLinks to='discover' smooth={true} duration={500} spy={true} exact='true'
+                                <NavLinks to='rezervacijas' smooth={true} duration={500} spy={true} exact='true'
                                           offset={-80}>REZERVĀCIJAS</NavLinks>
                                 </NavLinkContainer>
                             </NavItem>
                             <NavItem>
                                 <NavLinkContainer>
-                                <NavLinks to='services' smooth={true} duration={500} spy={true} exact='true'
+                                <NavLinks to='sasniegumi' smooth={true} duration={500} spy={true} exact='true'
                                           offset={-80}>SASNIEGUMI</NavLinks>
                                 </NavLinkContainer>
                             </NavItem>
                             <NavItem>
                                 <NavLinkContainer>
-                                <NavLinks to='signup' smooth={true} duration={500} spy={true} exact='true'
+                                <NavLinks to='galerija' smooth={true} duration={500} spy={true} exact='true'
                                           offset={-80}>GALERIJA</NavLinks>
                                 </NavLinkContainer>
                             </NavItem>

@@ -6,11 +6,9 @@ import {
     HeroBgImg,
     HeroContent,
     HeroTopBlock,
-    HeroH1,
+    HeroH,
     HeroP,
     HeroBtnWrapper,
-    ArrowForward,
-    ArrowRight
 } from "./HeroElements";
 import {Button} from "../ButtonElement";
 
@@ -28,15 +26,15 @@ const HeroSection = () => {
             </HeroBg>
             <HeroContent>
                 <HeroTopBlock>
-                <HeroH1>Ahoi!</HeroH1>
+                <HeroH>Ahoi!</HeroH>
                 <HeroP>
                     Laipni lūgti naktsmītnē virs ūdens, kurā sajutīsiet īsto vasaras burvību
                 </HeroP>
                 </HeroTopBlock>
                 <HeroBtnWrapper>
-                    <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='false'
+                    <Button to='about' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='false'
                             smooth={true} duration={500} spy={true} exact='true'
-                            offset={-80}>
+                            offset={80}>
                         Rezervēt {hover}
                     </Button>
                 </HeroBtnWrapper>
