@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.b69031e7.css",
-    "main.js": "/static/js/main.869e2f40.js",
-    "static/media/boatio-background.png": "/static/media/boatio-background.eae2b88b88ffc827dbbe.png",
-    "static/media/image-airbnb.png": "/static/media/image-airbnb.85773fd88ddabbd761c6.png",
-    "static/media/boatio-outside.png": "/static/media/boatio-outside.eeba83dea8e60465e10d.png",
-    "static/media/image-booking.png": "/static/media/image-booking.bc641b46e9026e555fb0.png",
-    "static/media/theboatio-booking-award.png": "/static/media/theboatio-booking-award.900f7c34152c4b1232a0.png",
-    "static/media/boatio-logo-white.svg": "/static/media/boatio-logo-white.e920ca6d3f16548ae83ef9d71e87f30f.svg",
-    "static/media/boatio-logo.svg": "/static/media/boatio-logo.e61cf9d27da18822e93f9a14d1d3b392.svg",
-    "static/media/icon-sun.svg": "/static/media/icon-sun.0750705639a9c4918e365e90216df8eb.svg",
-    "static/media/icon-people.svg": "/static/media/icon-people.fdd01e05a70ba749a01cb39641389387.svg",
-    "index.html": "/index.html",
-    "static/media/icon-hotel.svg": "/static/media/icon-hotel.595ff16113841dc1025065338452d982.svg",
-    "static/media/icon-map.svg": "/static/media/icon-map.4c30a03b4b684e88e1c5b1b926abbaf4.svg",
-    "static/media/icon-mail.svg": "/static/media/icon-mail.3482413f8a3a17e52258b794d41ad9ce.svg",
-    "main.b69031e7.css.map": "/static/css/main.b69031e7.css.map",
-    "main.869e2f40.js.map": "/static/js/main.869e2f40.js.map"
+    "main.css": "/boatio/static/css/main.b69031e7.css",
+    "main.js": "/boatio/static/js/main.937ec664.js",
+    "static/media/boatio-background.png": "/boatio/static/media/boatio-background.eae2b88b88ffc827dbbe.png",
+    "static/media/image-airbnb.png": "/boatio/static/media/image-airbnb.85773fd88ddabbd761c6.png",
+    "static/media/boatio-outside.png": "/boatio/static/media/boatio-outside.eeba83dea8e60465e10d.png",
+    "static/media/image-booking.png": "/boatio/static/media/image-booking.bc641b46e9026e555fb0.png",
+    "static/media/theboatio-booking-award.png": "/boatio/static/media/theboatio-booking-award.900f7c34152c4b1232a0.png",
+    "static/media/boatio-logo-white.svg": "/boatio/static/media/boatio-logo-white.e920ca6d3f16548ae83ef9d71e87f30f.svg",
+    "static/media/boatio-logo.svg": "/boatio/static/media/boatio-logo.e61cf9d27da18822e93f9a14d1d3b392.svg",
+    "static/media/icon-sun.svg": "/boatio/static/media/icon-sun.0750705639a9c4918e365e90216df8eb.svg",
+    "static/media/icon-people.svg": "/boatio/static/media/icon-people.fdd01e05a70ba749a01cb39641389387.svg",
+    "index.html": "/boatio/index.html",
+    "static/media/icon-hotel.svg": "/boatio/static/media/icon-hotel.595ff16113841dc1025065338452d982.svg",
+    "static/media/icon-map.svg": "/boatio/static/media/icon-map.4c30a03b4b684e88e1c5b1b926abbaf4.svg",
+    "static/media/icon-mail.svg": "/boatio/static/media/icon-mail.3482413f8a3a17e52258b794d41ad9ce.svg",
+    "main.b69031e7.css.map": "/boatio/static/css/main.b69031e7.css.map",
+    "main.937ec664.js.map": "/boatio/static/js/main.937ec664.js.map"
   },
   "entrypoints": [
     "static/css/main.b69031e7.css",
-    "static/js/main.869e2f40.js"
+    "static/js/main.937ec664.js"
   ]
 }
