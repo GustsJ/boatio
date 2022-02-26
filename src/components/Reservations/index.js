@@ -15,7 +15,7 @@ import {
 
 const Services = () => {
     return (
-        <ServicesContainer id='rezervacijas' to='/'>
+        <ServicesContainer id='rezervacijas'>
             <TitleWrapper>
                 <ServicesH>Rezervē atpūtu</ServicesH>
                 <ServicesSubtitle>Izvēlies sev ērtāko rezervācijas veidu</ServicesSubtitle>
