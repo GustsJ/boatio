@@ -1,6 +1,6 @@
 export const infoObjectOne = {
     topLine: 'The Boatio',
-    id: 'about',
+    id: 'par-mums',
     lightBg: true,
     lightText: false,
     darkText: true,

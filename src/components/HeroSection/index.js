@@ -32,9 +32,9 @@ const HeroSection = () => {
                 </HeroP>
                 </HeroTopBlock>
                 <HeroBtnWrapper>
-                    <Button to='about' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='false'
+                    <Button to='rezervacijas' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='false'
                             smooth={true} duration={500} spy={true} exact='true'
-                            offset={80}>
+                            offset={0}>
                         Rezervēt {hover}
                     </Button>
                 </HeroBtnWrapper>

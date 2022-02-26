@@ -7,7 +7,7 @@ export const ServicesContainer = styled.div`
   justify-content: center;
   align-items: center;
   background: #F6F6F6;
-  padding: 1rem;
+  padding: 5rem 1rem;
 
 `;
 

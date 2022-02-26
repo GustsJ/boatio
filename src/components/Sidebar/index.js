@@ -16,10 +16,9 @@ const Sidebar = ({isOpen, toggle}) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to='about' onClick={toggle}>Par Mums</SidebarLink>
-                    <SidebarLink to='discover' onClick={toggle}>Rezervācija</SidebarLink>
-                    <SidebarLink to='services' onClick={toggle}>Sasniegumi</SidebarLink>
-                    <SidebarLink to='signup' onClick={toggle}>Galerija</SidebarLink>
+                    <SidebarLink to='par-mums' onClick={toggle}>Par Mums</SidebarLink>
+                    <SidebarLink to='rezervacijas' onClick={toggle}>Rezervācija</SidebarLink>
+                    <SidebarLink to='sasniegumi' onClick={toggle}>Sasniegumi</SidebarLink>
                 </SidebarMenu>
             </SidebarWrapper>
         </SidebarContainer>

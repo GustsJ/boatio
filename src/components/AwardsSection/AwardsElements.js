@@ -6,7 +6,7 @@ export const AwardContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 3rem;
+  padding: 5rem 3rem;
 
 
   @media screen and (min-width: 768px) {
