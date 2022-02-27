@@ -22,7 +22,7 @@ const HeroSection = () => {
     return (
         <HeroContainer>
             <HeroBg>
-                <HeroBgImg autoPlay loop muted src={Background} type='image'/>
+                <HeroBgImg src={Background} alt='Boatio mini house from outside' type='image'/>
             </HeroBg>
             <HeroContent>
                 <HeroTopBlock>

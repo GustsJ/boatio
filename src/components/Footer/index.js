@@ -12,7 +12,7 @@ import {
     WebsiteRights
 } from "./FooterElements";
 import {FaFacebook, FaInstagram} from "react-icons/fa";
-import Logo from "../../images/boatio-logo-white.svg";
+import Logo from "../../images/boatio-logo-white.png";
 
 const Footer = () => {
     const toggleHome = () => {
@@ -37,7 +37,7 @@ const Footer = () => {
                                     <FaFacebook width='37' height='37'/>
                                 </SocialIconLink>
                             </SocialIcons>
-                            <WebsiteRights>The Boatio {new Date().getFullYear()} visas tiesības aizsargātas</WebsiteRights>
+                            <WebsiteRights>The Boatio {new Date().getFullYear()} Visas tiesības aizsargātas</WebsiteRights>
                         </SocialMediaWrap>
                     </SocialMedia>
                 </FooterWrap>

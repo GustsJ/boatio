@@ -16,9 +16,13 @@ export const AwardContainer = styled.div`
 `;
 
 export const AwardTextWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 
   @media screen and (min-width: 768px) {
     margin-top: auto;
+    gap: unset;
   }
 `;
 
@@ -32,14 +36,14 @@ export const AwardTitle = styled.h2`
 
   @media screen and (min-width: 768px) {
     text-align: unset;
-    line-height: 6rem;
+    line-height: 5rem;
   }
 
 `;
 
 export const AwardSubtitle = styled.p`
   color: #2A374A;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 300;
   text-align: center;
   margin-bottom: 1rem;
@@ -47,11 +51,13 @@ export const AwardSubtitle = styled.p`
 
   @media screen and (min-width: 768px) {
     text-align: unset;
+    font-size: 22px;
   }
 `;
 
 export const AwardImage = styled.div`
   img {
     width: 100%;
+    height: auto;
   }
 `;

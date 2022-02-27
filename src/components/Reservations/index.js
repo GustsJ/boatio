@@ -1,6 +1,6 @@
 import React from 'react'
-import booking from '../../images/image-booking.png'
-import airbnb from '../../images/image-airbnb.png'
+import booking from '../../images/image-booking.webp'
+import airbnb from '../../images/image-airbnb.webp'
 import {
     ServicesContainer,
     ServicesH,

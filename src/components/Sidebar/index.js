@@ -16,9 +16,9 @@ const Sidebar = ({isOpen, toggle}) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to='par-mums' onClick={toggle}>Par Mums</SidebarLink>
-                    <SidebarLink to='rezervacijas' onClick={toggle}>Rezervācija</SidebarLink>
-                    <SidebarLink to='sasniegumi' onClick={toggle}>Sasniegumi</SidebarLink>
+                    <li><SidebarLink to='par-mums' onClick={toggle}>Par Mums</SidebarLink></li>
+                    <li><SidebarLink to='rezervacijas' onClick={toggle}>Rezervācija</SidebarLink></li>
+                    <li><SidebarLink to='sasniegumi' onClick={toggle}>Sasniegumi</SidebarLink></li>
                 </SidebarMenu>
             </SidebarWrapper>
         </SidebarContainer>

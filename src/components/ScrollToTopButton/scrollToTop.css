@@ -1,0 +1,21 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    animation: fadeIn 700ms ease-in-out 1s both;
+    cursor: pointer;
+}
+
+.scroll-to-top div {
+    background: #2A374A;
+    border-radius: 50px;
+    width: 3rem;
+    height: 3rem;
+}
+
+.scroll-to-top svg {
+    color: #ffffff;
+    width: 3rem;
+    height: 2rem;
+    margin-top: 8px;
+}

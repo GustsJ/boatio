@@ -1,6 +1,6 @@
 import React from 'react'
 import {AwardTextWrapper, AwardSubtitle, AwardTitle, AwardImage, AwardContainer} from "./AwardsElements";
-import awardImg from "../../images/theboatio-booking-award.png"
+import awardImg from "../../images/theboatio-booking-award.webp"
 
 
 const AwardsSection = () => {

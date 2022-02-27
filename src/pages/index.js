@@ -8,6 +8,7 @@ import Services from "../components/Reservations";
 import Footer from "../components/Footer";
 import AwardsSection from "../components/AwardsSection";
 import ContactSection from "../components/ContactSection";
+import ScrollToTop from "../components/ScrollToTopButton";
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -26,6 +27,7 @@ const Home = () => {
             <AwardsSection/>
             <ContactSection/>
             <Footer/>
+            <ScrollToTop/>
         </>
     )
 }
