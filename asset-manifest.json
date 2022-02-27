@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.b69031e7.css",
-    "main.js": "/static/js/main.0feb7319.js",
-    "static/media/image-airbnb.png": "/static/media/image-airbnb.85773fd88ddabbd761c6.png",
+    "main.css": "/static/css/main.e8283ce3.css",
+    "main.js": "/static/js/main.c022e060.js",
     "static/media/boatio-outside.png": "/static/media/boatio-outside.eeba83dea8e60465e10d.png",
-    "static/media/image-booking.png": "/static/media/image-booking.bc641b46e9026e555fb0.png",
     "static/media/boatio-background.jpg": "/static/media/boatio-background.98c24188fdb7f1429278.jpg",
-    "static/media/theboatio-booking-award.png": "/static/media/theboatio-booking-award.900f7c34152c4b1232a0.png",
-    "static/media/boatio-logo-white.svg": "/static/media/boatio-logo-white.e920ca6d3f16548ae83ef9d71e87f30f.svg",
-    "static/media/boatio-logo.svg": "/static/media/boatio-logo.e61cf9d27da18822e93f9a14d1d3b392.svg",
+    "static/media/image-airbnb.webp": "/static/media/image-airbnb.51dc318e79b7096eea79.webp",
+    "static/media/theboatio-booking-award.webp": "/static/media/theboatio-booking-award.de3a3879c9222399322c.webp",
+    "static/media/image-booking.webp": "/static/media/image-booking.7f0f788c9c46c9526214.webp",
     "static/media/icon-sun.svg": "/static/media/icon-sun.0750705639a9c4918e365e90216df8eb.svg",
     "static/media/icon-people.svg": "/static/media/icon-people.fdd01e05a70ba749a01cb39641389387.svg",
     "index.html": "/index.html",
     "static/media/icon-hotel.svg": "/static/media/icon-hotel.595ff16113841dc1025065338452d982.svg",
     "static/media/icon-map.svg": "/static/media/icon-map.4c30a03b4b684e88e1c5b1b926abbaf4.svg",
     "static/media/icon-mail.svg": "/static/media/icon-mail.3482413f8a3a17e52258b794d41ad9ce.svg",
-    "main.b69031e7.css.map": "/static/css/main.b69031e7.css.map",
-    "main.0feb7319.js.map": "/static/js/main.0feb7319.js.map"
+    "main.e8283ce3.css.map": "/static/css/main.e8283ce3.css.map",
+    "main.c022e060.js.map": "/static/js/main.c022e060.js.map"
   },
   "entrypoints": [
-    "static/css/main.b69031e7.css",
-    "static/js/main.0feb7319.js"
+    "static/css/main.e8283ce3.css",
+    "static/js/main.c022e060.js"
   ]
 }
