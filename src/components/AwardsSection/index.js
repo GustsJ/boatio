@@ -11,7 +11,7 @@ const AwardsSection = () => {
                     <AwardTitle>Mūsu <br/> sasniegumi</AwardTitle>
                     <AwardSubtitle>Šeit gadu gaitā krāsim mūsu naktsmītnes sasniegumus</AwardSubtitle>
                 </AwardTextWrapper>
-                <AwardImage><img src={awardImg} alt="The Boatio Booking Award"/></AwardImage>
+                <AwardImage><img src={awardImg} alt="The Boatio Booking Award" width='425' height='410'/></AwardImage>
             </AwardContainer>
         </>
     )

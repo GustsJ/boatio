@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Background from '../../images/boatio-background.png'
+import Background from '../../images/boatio-background.jpg'
 import {
     HeroContainer,
     HeroBg,

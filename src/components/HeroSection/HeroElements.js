@@ -51,7 +51,7 @@ export const HeroContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 12rem;
+  gap: 6rem;
 
   @media screen and (max-width: 480px) {
     gap: 3rem;

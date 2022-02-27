@@ -20,7 +20,7 @@ const ContactSection = () => {
                         jautājumiem!</ContactSectionText>
                 </ContactSectionInfo>
                 <ContactSectionEmail>
-                    <ContactSectionImg href="mailto:theboatioj@gmail.com"><img src={mail} alt="Boatio email icon"/></ContactSectionImg>
+                    <ContactSectionImg href="mailto:theboatioj@gmail.com"><img src={mail} alt="Boatio email icon" width='48' height='48'/></ContactSectionImg>
                     <ContactSectionEmailLink
                         href="mailto:theboatioj@gmail.com">theboatioj@gmail.com</ContactSectionEmailLink>
                 </ContactSectionEmail>

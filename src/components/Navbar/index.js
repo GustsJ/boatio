@@ -38,7 +38,7 @@ const Navbar = ({toggle}) => {
             <IconContext.Provider value={{color: '#fff'}}>
                 <Nav scrollNav={scrollNav}>
                     <NavbarContainer>
-                        <NavLogo to='/' onClick={toggleHome}><img src={Logo} alt="The Boatio logo"/></NavLogo>
+                        <NavLogo to='/' onClick={toggleHome}><img src={Logo} alt="The Boatio logo" width='267' height='87'/></NavLogo>
                         <MobileIcon onClick={toggle}>
                             <FaBars/>
                         </MobileIcon>

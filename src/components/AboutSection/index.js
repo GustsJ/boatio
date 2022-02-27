@@ -63,7 +63,7 @@ const InfoSection = ({
                     <TopLine>{topLine}</TopLine>
 
                     <Column>
-                        <Img src={img1} alt={alt1}/>
+                        <Img src={img1} alt={alt1} width='80' height='80'/>
                         <TextWrapper>
                             <Heading lightText={lightText}>{headline1}</Heading>
                             <Subtitle darkText={darkText}>{description1}</Subtitle>
@@ -72,7 +72,7 @@ const InfoSection = ({
 
                     <ColumnCenter>
                         <ImgCenterWrap>
-                            <ImgCenter src={imgCenter} alt={altCenter}/>
+                            <ImgCenter src={imgCenter} alt={altCenter} width='255' height='350'/>
                         </ImgCenterWrap>
                     </ColumnCenter>
 
@@ -85,7 +85,7 @@ const InfoSection = ({
                     </DescriptionLeft>
 
                     <Column2>
-                        <Img src={img2} alt={alt2}/>
+                        <Img src={img2} alt={alt2} width='80' height='80'/>
                         <TextWrapper>
                             <Heading lightText={lightText}>{headline2}</Heading>
                             <Subtitle darkText={darkText}>{description2}</Subtitle>
@@ -93,7 +93,7 @@ const InfoSection = ({
                     </Column2>
 
                     <ColumnCenter>
-                        <Img src={img3} alt={alt3}/>
+                        <Img src={img3} alt={alt3} width='80' height='80'/>
                         <TextWrapper>
                             <Heading lightText={lightText}>{headline3}</Heading>
                             <Subtitle darkText={darkText}>{description3}</Subtitle>
@@ -101,7 +101,7 @@ const InfoSection = ({
                     </ColumnCenter>
 
                     <Column3>
-                        <Img src={img4} alt={alt4}/>
+                        <Img src={img4} alt={alt4} width='80' height='80'/>
                         <TextWrapper>
                             <Heading lightText={lightText}>{headline4}</Heading>
                             <Subtitle darkText={darkText}>{description4}</Subtitle>
