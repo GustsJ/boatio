@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.e8283ce3.css",
-    "main.js": "/static/js/main.c022e060.js",
-    "static/media/boatio-outside.png": "/static/media/boatio-outside.eeba83dea8e60465e10d.png",
+    "main.js": "/static/js/main.d61bb537.js",
+    "static/media/boatio-about.png": "/static/media/boatio-about.7bd0006e5a5e46df8d3d.png",
     "static/media/boatio-background.jpg": "/static/media/boatio-background.98c24188fdb7f1429278.jpg",
     "static/media/image-airbnb.webp": "/static/media/image-airbnb.51dc318e79b7096eea79.webp",
     "static/media/theboatio-booking-award.webp": "/static/media/theboatio-booking-award.de3a3879c9222399322c.webp",
@@ -14,10 +14,10 @@
     "static/media/icon-map.svg": "/static/media/icon-map.4c30a03b4b684e88e1c5b1b926abbaf4.svg",
     "static/media/icon-mail.svg": "/static/media/icon-mail.3482413f8a3a17e52258b794d41ad9ce.svg",
     "main.e8283ce3.css.map": "/static/css/main.e8283ce3.css.map",
-    "main.c022e060.js.map": "/static/js/main.c022e060.js.map"
+    "main.d61bb537.js.map": "/static/js/main.d61bb537.js.map"
   },
   "entrypoints": [
     "static/css/main.e8283ce3.css",
-    "static/js/main.c022e060.js"
+    "static/js/main.d61bb537.js"
   ]
 }
