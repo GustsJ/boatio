@@ -15,7 +15,7 @@ export const infoObjectOne = {
     description1: 'Naktsmītne atrodas skaistajā Austrumvidzemes pērlē Alūksnē. Pēdējā laikā tas ir ļoti iecienīts ceļotāju galamērķis, jo straujā pilsētas attīstība nevienu neatsāj vienaldzīgu',
 
     //center images
-    imgCenter: require('../../images/boatio-outside.png'),
+    imgCenter: require('../../images/boatio-about.png'),
     altCenter: 'Boatio outside look',
 
     //place block

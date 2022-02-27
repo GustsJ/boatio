@@ -64,6 +64,7 @@ export const ImgCenterWrap = styled.div`
 
 export const ImgCenter = styled.img`
   max-height: 350px;
+  width: auto;
 `;
 
 
@@ -102,6 +103,9 @@ export const Subtitle = styled.p`
   color: ${({darkText}) => (darkText ? '#2a374a' : '#fff')};
   font-family: 'Oranienbaum', sans-serif;
 
+  word-break: break-word;
+
+
 
   @media (min-width: 768px){
     max-width: 250px;
@@ -117,6 +121,8 @@ export const Subtitle2 = styled.p`
   color: ${({darkText}) => (darkText ? '#2a374a' : '#fff')};
   font-family: 'Oranienbaum', sans-serif;
   margin-bottom: 32px;
+  
+  word-break: break-word;
   
   &:last-child{
     margin-bottom: unset;

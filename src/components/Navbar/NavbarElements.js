@@ -83,6 +83,7 @@ export const NavLinkContainer = styled.div`
 export const NavLinks = styled(LinkS)`
   color: #F6F6F6;
   padding: 14px 12px;
+  text-decoration: none;
 
   &.active {
     border-radius: 50px;

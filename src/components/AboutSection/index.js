@@ -72,7 +72,7 @@ const InfoSection = ({
 
                     <ColumnCenter>
                         <ImgCenterWrap>
-                            <ImgCenter src={imgCenter} alt={altCenter} width='255' height='350'/>
+                            <ImgCenter src={imgCenter} alt={altCenter} width='360' height='350'/>
                         </ImgCenterWrap>
                     </ColumnCenter>
 
