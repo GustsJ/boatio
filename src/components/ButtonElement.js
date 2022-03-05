@@ -19,8 +19,8 @@ export const Button = styled(Link)`
   width: 120px;
   
   @media screen and (min-width: 768px) {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
   }
 
   &:hover {

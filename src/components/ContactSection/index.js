@@ -15,7 +15,7 @@ const ContactSection = () => {
         <>
             <ContactSectionContainer>
                 <ContactSectionInfo>
-                    <ContactSectionTitle>Vēlies Uzzināt vairāk?</ContactSectionTitle>
+                    <ContactSectionTitle>Vēlies uzzināt vairāk?</ContactSectionTitle>
                     <ContactSectionText>Sazinies ar mums, labprāt, atbildēsim uz Taviem
                         jautājumiem!</ContactSectionText>
                 </ContactSectionInfo>

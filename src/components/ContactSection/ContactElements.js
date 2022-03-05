@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 export const ContactSectionContainer = styled.div`
   display: flex;
+  align-items: center;
   justify-content: space-around;
-  padding: 6rem 3rem;
+  padding: 2rem 3rem;
   background-color: rgba(0, 47, 73, 0.3);
   flex-direction: column;
   gap: 3rem;
@@ -17,7 +18,7 @@ export const ContactSectionContainer = styled.div`
 export const ContactSectionInfo = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 1rem;
 `;
 
 export const ContactSectionTitle = styled.h2`
@@ -46,7 +47,7 @@ export const ContactSectionEmail = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 `;
 
 export const ContactSectionEmailLink = styled.a`

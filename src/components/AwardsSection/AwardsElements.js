@@ -36,7 +36,8 @@ export const AwardTitle = styled.h2`
 
   @media screen and (min-width: 768px) {
     text-align: unset;
-    line-height: 5rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
   }
 
 `;

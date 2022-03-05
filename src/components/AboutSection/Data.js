@@ -22,7 +22,7 @@ export const infoObjectOne = {
     img2: require('../../images/icon-hotel.svg').default,
     alt2: 'Icon hostel',
     headline2: 'Nakšņošana',
-    description2: 'Atpūtas vieta ir izvietota virs Alūksnes ezera. Jā, tiešām, zem guļvietas ir tieša piekļuve ūdenim, un pa logu paveras skats un vienu no galvenajiem apskaties objektiem - Alūksnes pilssalu.',
+    description2: 'Atpūtas vieta ir izvietota virs Alūksnes ezera. Jā, tiešām, zem guļvietas ir tieša piekļuve ūdenim, un pa logu paveras skats un vienu no galvenajiem apskates objektiem - Alūksnes pilssalu.',
 
     //description block
     descriptionLeft: 'The Boatio ir ģimenes projekts, kas pirmo reizi durvis viesiem vēra 2021. gada vasarā.',

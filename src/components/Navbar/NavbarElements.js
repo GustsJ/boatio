@@ -11,7 +11,8 @@ export const Nav = styled.nav`
   align-items: center;
   font-size: 1rem;
   position: sticky;
-  top: 0;
+  top: ${({scrollNav}) => (scrollNav ? '0' : '1rem')};
+  transition: all .3s ease-in-out;
   z-index: 10;
 
   @media screen and (max-width: 960px) {
@@ -35,7 +36,7 @@ export const NavLogo = styled(LinkR)`
   cursor: pointer;
   font-size: 1.5rem;
   display: flex;
-  align-items: center;
+  align-items: baseline;
   font-weight: bold;
   text-decoration: none;
 `;
@@ -89,33 +90,5 @@ export const NavLinks = styled(LinkS)`
     border-radius: 50px;
     background-color: #2A374A;
     box-sizing: border-box;
-  }
-`;
-
-export const NavBtn = styled.nav`
-  display: flex;
-  align-items: center;
-
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
-`;
-
-export const NavBtnLink = styled(LinkR)`
-  border-radius: 50px;
-  background: #01bf71;
-  white-space: nowrap;
-  padding: 10px 22px;
-  color: #010606;
-  font-size: 1rem;
-  outline: none;
-  cursor: pointer;
-  transition: all .2s ease-in-out;
-  text-decoration: none;
-
-  &:hover {
-    transition: all .2s ease-in-out;
-    background: #fff;
-    color: #010606;
   }
 `;

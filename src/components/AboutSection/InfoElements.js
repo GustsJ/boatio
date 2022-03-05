@@ -136,15 +136,10 @@ export const ColumnCenter = styled.div`
 
 export const Column2 = styled.div`
   text-align: center;
-
-  @media (min-width: 1024px){
-    margin-bottom: auto;
-  }
 `;
 
 export const Column3 = styled.div`
   text-align: center;
-  margin-top: auto;
 `;
 
 export const DescriptionLeft = styled.div`
