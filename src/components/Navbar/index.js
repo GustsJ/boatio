@@ -51,12 +51,6 @@ const Navbar = ({toggle}) => {
                             </NavItem>
                             <NavItem>
                                 <NavLinkContainer>
-                                <NavLinks to='rezervacijas' smooth={true} duration={500} spy={true} exact='true'
-                                          offset={-80}>REZERVĀCIJAS</NavLinks>
-                                </NavLinkContainer>
-                            </NavItem>
-                            <NavItem>
-                                <NavLinkContainer>
                                 <NavLinks to='sasniegumi' smooth={true} duration={500} spy={true} exact='true'
                                           offset={-80}>SASNIEGUMI</NavLinks>
                                 </NavLinkContainer>
