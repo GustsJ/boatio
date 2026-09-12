@@ -1,3 +1,9 @@
+import mapIcon from '../../images/icon-map.svg';
+import aboutImage from '../../images/boatio-about.png';
+import hotelIcon from '../../images/icon-hotel.svg';
+import sunIcon from '../../images/icon-sun.svg';
+import peopleIcon from '../../images/icon-people.svg';
+
 export const infoObjectOne = {
     topLine: 'The Boatio',
     id: 'par-mums',
@@ -9,17 +15,17 @@ export const infoObjectOne = {
     primary: true,
 
     //city block
-    img1: require('../../images/icon-map.svg').default,
+    img1: mapIcon,
     alt1: 'Icon map',
     headline1: 'Alūksne',
     description1: 'Naktsmītne atrodas skaistajā Austrumvidzemes pērlē Alūksnē. Pēdējā laikā tas ir ļoti iecienīts ceļotāju galamērķis, jo straujā pilsētas attīstība nevienu neatsāj vienaldzīgu',
 
     //center images
-    imgCenter: require('../../images/boatio-about.png'),
+    imgCenter: aboutImage,
     altCenter: 'Boatio outside look',
 
     //place block
-    img2: require('../../images/icon-hotel.svg').default,
+    img2: hotelIcon,
     alt2: 'Icon hostel',
     headline2: 'Nakšņošana',
     description2: 'Atpūtas vieta ir izvietota virs Alūksnes ezera. Jā, tiešām, zem guļvietas ir tieša piekļuve ūdenim, un pa logu paveras skats un vienu no galvenajiem apskates objektiem - Alūksnes pilssalu.',
@@ -31,14 +37,14 @@ export const infoObjectOne = {
 
 
     //season block
-    img3: require('../../images/icon-sun.svg').default,
+    img3: sunIcon,
     alt3: 'Icon sun',
     headline3: 'Sezona',
     description3: 'Par cik naktsmītne atrodas tiešā saskarē ar ūdeni, tad aktīvā sezona ir no maija līdz septembrim',
 
 
     //team block
-    img4: require('../../images/icon-people.svg').default,
+    img4: peopleIcon,
     alt4: 'Icon team',
     headline4: 'Komanda',
     description4: 'Sezonas laikā mūsu komanda darbojas 7 dienas nedēļā, lai nodrošinātu tūristiem iespēju atpūsties pie mums jebkurā no tām',
